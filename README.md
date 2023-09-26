@@ -1,5 +1,7 @@
 # AppInfo
 
+![Test coverage](https://img.shields.io/codecov/c/github/kevinhermawan/AppInfo)
+
 A simple Swift utility to fetch application metadata from `Info.plist`.
 
 ## Overview
