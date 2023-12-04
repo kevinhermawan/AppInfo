@@ -10,6 +10,9 @@ let package = Package(
             name: "AppInfo",
             targets: ["AppInfo"]),
     ],
+    dependencies: [
+        .package(url: "https://github.com/apple/swift-docc-plugin.git", .upToNextMajor(from: "1.3.0"))
+    ],
     targets: [
         .target(
             name: "AppInfo"),
